@@ -9,7 +9,6 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
 }
 
 /* FLEX CONTAINERS HELPERS */
@@ -34,6 +33,9 @@ body {
 .txtAlignCtr { text-align: center; }
 .vw100 { width: 100vw; }
 .wid100Perc { width: 100%; }
+
+/* UTILITY | hover */
+.fontBigHov:hover { font-size: 18px; }
 
 /******** HEADER STYLE ********/
 header {
