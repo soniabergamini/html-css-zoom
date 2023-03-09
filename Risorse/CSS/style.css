@@ -27,12 +27,6 @@ body {
 .posRelative { position: relative; }
 .posAbsolute { position: absolute; }
 
-/* UTILITY | centratura */
-.box {
-    max-width: 69.4rem; /* 1110px su 1536px */
-    margin: 0 auto;
-}
-
 /* GENERIC UTILITIES */
 .txtWhite { color: white; }
 .txtRed { color: red; }
@@ -40,7 +34,6 @@ body {
 .txtAlignCtr { text-align: center; }
 .vw100 { width: 100vw; }
 .wid100Perc { width: 100%; }
-.border { border: 1px solid palevioletred; }
 
 /******** HEADER STYLE ********/
 header {
@@ -51,14 +44,14 @@ header {
 header span {
     border-radius: 5px;
     background-color: #4A4A4A;
-    margin: 0 6px;
-    padding: 3px 6px;
+    margin: 0 3px;
+    padding: 3px 5px;
+    font-size: smaller;
 }
 
 /******** MAIN STYLE ********/
 main section {
     height: calc( 100vh - 120px);
-    width: 100%;
     padding: 30px 50px;
 }
 
@@ -86,5 +79,23 @@ main span {
 /******** FOOTER STYLE ********/
 footer {
     height: 60px;
-    padding: 10px;
+    background-color: #222222;
+}
+
+footer > section > section:nth-child(2) {
+    width: 50%;
+}
+
+footer div.txtAlignCtr > * {
+    margin: 0 15px;
+}
+
+#i-colorGreen {
+    color: #49C802;
+}
+
+footer section.txtAlignCtr {
+    height: 100%;
+    padding: 19px 10px;
+    background-color: #4a4a4a9f;
 }

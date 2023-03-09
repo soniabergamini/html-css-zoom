@@ -13,15 +13,15 @@
 </head>
 <body>
     <!-- Banner -->
-    <header class="border">
+    <header class="vw100">
         <section class="flex directRR wid100Perc alignCtr">
-            <span><i class="fa-solid fa-maximize"></i></span>
-            <span><i class="fa-solid fa-table-cells"></i> Speaker View</span>
+            <span class="cursor"><i class="fa-solid fa-maximize"></i></span>
+            <span class="cursor"><i class="fa-solid fa-table-cells"></i> Speaker View</span>
         </section>
     </header>
     <!-- Images Rows -->
-    <main class="border vw100">
-        <section class="flex flexwrap spaceARN">
+    <main class="vw100">
+        <section class="flex flexwrap spaceARN wid100Perc">
         <!-- 1° Row -->
             <div class="posRelative">
                 <img src="https://picsum.photos/id/350/300/200" alt="dog img">
@@ -169,8 +169,68 @@
             </div>            
         </section>
     </main>
-    <footer class="border">
-        C
+    <footer class="vw100">
+        <section class="flex spaceBtw alignCtr">
+            <!-- Speaker Audio/Video Controller -->
+            <section class="flex">
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-microphone"></i>
+                    <p><small>Mute</small></p>
+                </div>
+                <div class="flex justyCtr alignCtr cursor">
+                    <i class="small fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-video"></i>
+                    <p><small>Stop Video</small></p>
+                </div>
+                <div class="flex justyCtr alignCtr cursor">
+                    <i class="small fa-solid fa-chevron-up"></i>
+                </div>
+            <!-- Speaker Room Controller -->
+            </section>
+            <section class="flex alignCtr justyCtr">
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <p><small>Invite</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p><small>Manage Participants</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <p><small>Polling</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i id="i-colorGreen" class="fa-solid fa-share-from-square"></i>
+                    <p><small>Share Screen</small></p>
+                </div>
+                <div class="flex justyCtr alignCtr cursor">
+                    <i class="small fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-comment"></i>
+                    <p><small>Chat</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <p><small>Record</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-brands fa-windows"></i>
+                    <p><small>Breakout Rooms</small></p>
+                </div>
+                <div class="txtAlignCtr cursor">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p><small>More</small></p>
+                </div>
+            </section>
+            <!-- End Meeting Button -->
+            <section class="txtAlignCtr txtRed cursor">
+                <small>End Meeting</small>
+            </section>
+        </section>
     </footer>
 </body>
 </html>
