@@ -1,0 +1,40 @@
+/******** GENERAL STYLE ********/
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* FLEX CONTAINERS HELPERS */
+.flex { display: flex; }
+.spaceBtw { justify-content: space-between; }
+.alignCtr { align-items: center; }
+.justyCtr { justify-content: center; }
+.flexwrap { flex-wrap: wrap; }
+
+/* POSITION & TRANSITION HELPERS */
+.secTrans { transition: 0.6s; }
+.posFixed { position: fixed; }
+.posRelative { position: relative; }
+.posAbsolute { position: absolute; }
+
+/* UTILITY | centratura */
+.box {
+    max-width: 69.4rem; /* 1110px su 1536px */
+    margin: 0 auto;
+}
+
+/* GENERIC UTILITIES */
+.txtWhite { color: white; }
+.txtRed { color: red; }
+.cursor { cursor: pointer; }
+.txtAlignCtr { text-align: center; }
+.vw100 { width: 100vw; }
+
+/******** HEADER STYLE ********/
